@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Course.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+ import {faArrowRight } from '@fortawesome/free-solid-svg-icons'
 const Course = ({ course }) => {
     const {logo, name, id, total} = course
     return (
@@ -9,7 +11,10 @@ const Course = ({ course }) => {
             <h2>{name}</h2>
             <h3>Total Quiz: {total}</h3>
             <Link to={`/classes/${id}`}>
-                <button className='classBtn'>Start Class</button>
+                <div className='btnContainer'>
+                     <button className='classBtn'>Start Class
+                    <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button>
+               </div>
             </Link>
         </div>
     );

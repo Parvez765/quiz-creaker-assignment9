@@ -4,6 +4,7 @@ import HeaderImage from "../../images/HeaderImage-01.png"
 import Course from '../Course/Course';
 import "./Home.css"
 
+
 const Home = () => {
     const courses = useLoaderData() 
     

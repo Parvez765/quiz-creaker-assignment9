@@ -13,9 +13,16 @@
 }
 .classBtn{
     margin-bottom: 10px;
+   margin-right: 5px;
+   width: 100%;
     padding: 10px 20px;
     background-color: rgb(227, 214, 35);
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
