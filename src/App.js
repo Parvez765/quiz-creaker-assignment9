@@ -9,7 +9,8 @@ import Error from './Component/Error/Error';
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/", element: <Main></Main>,
+      path: "/",
+      element: <Main></Main>,
       errorElement: <Error></Error>,
       children: [
         {
