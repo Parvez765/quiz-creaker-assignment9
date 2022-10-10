@@ -1,0 +1,25 @@
+.titleContainer{
+    display: flex;
+}
+
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerIcon {
+    width: 60px;
+    object-fit: contain;
+}
+
+.navLink a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+.active{
+    background-color: rgb(226, 226, 226);
+    color: white;
+    border-radius: 8px;
+}
