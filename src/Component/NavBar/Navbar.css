@@ -4,6 +4,10 @@
 
 .navContainer{
     display: flex;
+    background-color: white;
+    box-shadow: 4px 4px 4px gray;
+    position: sticky;
+    top: 0;
     align-items: center;
     justify-content: space-around;
 }
