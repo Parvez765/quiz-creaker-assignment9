@@ -1,0 +1,12 @@
+.textContainer h1{
+    font-size: 100px;
+    margin-top: -20px;
+
+}
+.textContainer p{
+    font-size: 30px;
+    margin-top: -60px;
+}
+.errorContainer{
+    margin-top: 150px;
+}

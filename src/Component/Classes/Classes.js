@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import Quiz from './Quiz/Quiz';
+import Quiz from '../Quiz/Quiz';
 
 const Classes = () => {
     const courseClasses = useLoaderData()
