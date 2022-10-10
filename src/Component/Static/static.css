@@ -1,0 +1,10 @@
+.barchart{
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 376px) {
+    .barchart{
+        margin-left: 15%;
+    }
+}
