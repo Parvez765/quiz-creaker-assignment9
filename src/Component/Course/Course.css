@@ -1,0 +1,21 @@
+.courseContainer{
+    box-shadow: 4px 4px 4px rgb(213, 212, 212);
+    background-color: rgb(236, 236, 236);
+    margin: 0 30px;
+}
+
+.courseContainer h2{
+    margin-top: -2px;
+}
+.courseContainer img{
+    width: 350px;
+    margin-bottom: 10px;
+}
+.classBtn{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: rgb(227, 214, 35);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

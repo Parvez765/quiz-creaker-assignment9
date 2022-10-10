@@ -26,6 +26,19 @@
     color: white;
 }
 
+.courseSection h2{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.courseContent{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+
+}
+
 @media screen and (max-width: 1440px) and (min-width: 376px) {
     .headerContent{
         display: flex;
@@ -41,5 +54,9 @@
     .navBtn{
         display: block;
         margin:15px auto;
+    }
+    .courseContent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
