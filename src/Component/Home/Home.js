@@ -14,7 +14,7 @@ const Home = () => {
                 <div className='headerText'>
                 <h1>Lets Learn <br></br>Technology With Fun</h1>
                 <div className='navBtn'>
-                    <Link to="/classes">Our Classes</Link>
+                    <Link to="/blog">Blogs</Link>
                 </div>
             </div>
             <div className='headerImage'>

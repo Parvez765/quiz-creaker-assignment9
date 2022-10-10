@@ -3,6 +3,7 @@ import Swal from 'sweetalert2'
 import "./QuizOption.css"
 
 
+
 const QuizOption = ({ option, correctAnswer }) => {
     
     const quizAnswer = (option) => {
@@ -24,7 +25,8 @@ const QuizOption = ({ option, correctAnswer }) => {
     }
    
     return (
-        <div onClick={() => quizAnswer (option)}>
+        <div onClick={() => quizAnswer(option)}>
+           
             <h4 className='quizOption'>{option}</h4>
         </div>
     );
