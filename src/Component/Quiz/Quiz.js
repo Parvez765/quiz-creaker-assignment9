@@ -26,7 +26,8 @@ const Quiz = ({ quiz }) => {
                         correctAnswer={correctAnswer}
                         showCorrect = {showCorrect}
                         ></QuizOption>)
-               }
+                }
+                
             </div>
             
         </div>

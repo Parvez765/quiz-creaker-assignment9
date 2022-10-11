@@ -25,10 +25,13 @@ const QuizOption = ({ option, correctAnswer, showCorrect }) => {
     }
    
     return (
-        <div onClick={() => quizAnswer(option)}>
+        <div>
+             <div onClick={() => quizAnswer(option)}>
           
             <h4 className={`quizOption ${(showCorrect && option === correctAnswer) && 'green'}`}>{option}</h4>
-        </div>
+            </div>
+           
+       </div>
     );
 };
 
