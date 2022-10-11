@@ -4,7 +4,7 @@ import "./QuizOption.css"
 
 
 
-const QuizOption = ({ option, correctAnswer }) => {
+const QuizOption = ({ option, correctAnswer, showCorrect }) => {
     
     const quizAnswer = (option) => {
         if (option === correctAnswer) {
@@ -26,8 +26,8 @@ const QuizOption = ({ option, correctAnswer }) => {
    
     return (
         <div onClick={() => quizAnswer(option)}>
-           
-            <h4 className='quizOption'>{option}</h4>
+          
+            <h4 className={`quizOption ${(showCorrect && option === correctAnswer) && 'green'}`}>{option}</h4>
         </div>
     );
 };
